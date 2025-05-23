@@ -1,13 +1,13 @@
-﻿<text>
+<text>
 
   <options>
     <!-- ///////////////////////////////////Strings///////////////////////////////////// -->
 
-    <option id="title0" dialogue="新店"></option>
+    <option id="title0" dialogue="新建商店"></option>
     <option id="title1" dialogue="加载商店"></option>
     <option id="title2" dialogue="加入商店"></option>
-    <option id="title3" dialogue="选项"></option>
-    <option id="title4" dialogue="出口"></option>
+    <option id="title3" dialogue="设置"></option>
+    <option id="title4" dialogue="退出"></option>
 
     <option id="newstore0" dialogue="为您的商店选择一个名称"></option>
     <option id="newstore1" dialogue="私人"></option>
@@ -38,9 +38,9 @@
     <option id="options4" dialogue="抗锯齿"></option>
     <option id="options5" dialogue="亮度"></option>
     <option id="options6" dialogue="质量"></option>
-    <option id="options6a" dialogue="性能"></option>
+    <option id="options6a" dialogue="性能优先"></option>
     <option id="options6b" dialogue="平衡"></option>
-    <option id="options6c" dialogue="高保真"></option>
+    <option id="options6c" dialogue="画质优先"></option>
 
     <option id="options7" dialogue="控件"></option>
     <option id="options8" dialogue="X 灵敏度"></option>
@@ -48,13 +48,13 @@
     <option id="options10" dialogue="缩放灵敏度"></option>
     <option id="options11" dialogue="反转 X 轴"></option>
     <option id="options12" dialogue="反转 Y 轴"></option>
-    <option id="options12a" dialogue="自定义控件"></option>
+    <option id="options12a" dialogue="自定义按键"></option>
 
     <option id="options13" dialogue="音频"></option>
     <option id="options14" dialogue="主音量。"></option>
     <option id="options15" dialogue="音乐音量。"></option>
     <option id="options16" dialogue="音效音量。"></option>
-    <option id="options17" dialogue="用户界面音量。"></option>
+    <option id="options17" dialogue="界面音量。"></option>
     <option id="options17a" dialogue="语音音量。"></option>
 
     <option id="options18" dialogue="主菜单"></option>
@@ -90,16 +90,16 @@
     <option id="rw15" dialogue="放下物品"></option>
     <option id="rw16" dialogue="跳跃"></option>
     <option id="rw17" dialogue="冲刺"></option>
-    <option id="rw18" dialogue="打开构建器"></option>
+    <option id="rw18" dialogue="打开建造界面"></option>
     <option id="rw19" dialogue="下一个菜单"></option>
     <option id="rw20" dialogue="上一个菜单"></option>
     <option id="rw21" dialogue="聊天"></option>
     <option id="rw22" dialogue="语音聊天"></option>
-    <option id="rw23" dialogue="退出菜单"></option>
+    <option id="rw23" dialogue="暂停菜单"></option>
     <option id="rw24" dialogue="蹲下"></option>
 
-    <option id="rw25" dialogue="下一个构建器选项卡"></option>
-    <option id="rw26" dialogue="上一个构建器选项卡"></option>
+    <option id="rw25" dialogue="下一个建造选项卡"></option>
+    <option id="rw26" dialogue="上一个建造选项卡"></option>
     <option id="rw27" dialogue="舞蹈 1"></option>
     <option id="rw28" dialogue="舞蹈 2"></option>
     <option id="rw29" dialogue="舞蹈 3"></option>
@@ -132,7 +132,7 @@
     <option id="cashiers" dialogue="收银员"></option>
     <option id="restock" dialogue="补货"></option>
     <option id="storage" dialogue="存储"></option>
-    <option id="security" dialogue="安全"></option>
+    <option id="security" dialogue="安保"></option>
     <option id="mblackboard" dialogue="经理黑板"></option>
     <option id="productorder" dialogue="产品订单"></option>
     <option id="supermarket" dialogue="超市"></option>
@@ -161,7 +161,7 @@
     <option id="tutorial0" dialogue="欢迎来到超市！"></option>
     <option id="tutorial1" dialogue="商店关门时，时间过得更慢。
 
-第一步是放置一些家具。按 [TAB] 打开构建器"></option>
+第一步是放置一些家具。按 [TAB] 打开建筑菜单"></option>
     <option id="tutorial2" dialogue="购买 2 个产品货架、一个收银台和一个储物架。
 
 请注意，储物架只能放置在与经理室相连的附属空房间中。"></option>
@@ -169,7 +169,7 @@
 
 我们有一个特许经营点：通过拥有成功的业务可以获得积分。
 
-前往经理室并在特权的黑板上获得第一个特权。"></option>
+前往经理室并在黑板上获得第一个特权。"></option>
     <option id="tutorial4" dialogue="太好了。您刚刚获得了第一包产品。
 
 重要的是要记住，一旦您获得了产品特许经营权，客户就会期望这些产品在商店中存在，否则他们会抱怨。
@@ -227,11 +227,11 @@
 
     <!-- ///////////////////////////////////Controls///////////////////////////////////// -->
 
-    <option id="builder0" dialogue="建立/移动/删除"></option>
+    <option id="builder0" dialogue="建造/移动/删除"></option>
     <option id="builder1" dialogue="向左旋转"></option>
     <option id="builder2" dialogue="向右旋转"></option>
-    <option id="builder3" dialogue="向上导航菜单"></option>
-    <option id="builder4" dialogue="向下导航菜单"></option>
+    <option id="builder3" dialogue="选择上一个"></option>
+    <option id="builder4" dialogue="选择下一个"></option>
 
     <option id="checkout0" dialogue="[LMB] 添加资金"></option>
     <option id="checkout1" dialogue="[RMB] 移除资金"></option>
@@ -259,13 +259,13 @@
     <option id="franchiselevel" dialogue="特许经营级别："></option>
     <option id="franchiseexperience" dialogue="特许经营经验："></option>
     <option id="income" dialogue="收入 "></option>
-    <option id="moneylostbecauserobbing" dialogue="金钱损失，因为强盗："></option>
+    <option id="moneylostbecauserobbing" dialogue="因抢劫损失金额："></option>
     <option id="boughtproductscost" dialogue="购买产品成本："></option>
     <option id="rentcost" dialogue="租金成本："></option>
     <option id="electricitycost" dialogue="电费："></option>
     <option id="employeeswages" dialogue="员工工资："></option>
     <option id="othercosts" dialogue="其他成本："></option>
-    <option id="daybalance" dialogue="当日余额："></option>
+    <option id="daybalance" dialogue="今日盈亏："></option>
 
     <!-- ///////////////////////////////////UIMessages///////////////////////////////////// -->
 
@@ -333,10 +333,10 @@
 
     <!-- ///////////////////////////////////Buildables///////////////////////////////////// -->
 
-    <option id="builder" dialogue="建造者"></option>
+    <option id="builder" dialogue="建造"></option>
     <option id="buildable0" dialogue="放置模式"></option>
     <option id="buildable1" dialogue="产品货架"></option>
-    <option id="buildable2" dialogue="基本冰箱"></option>
+    <option id="buildable2" dialogue="基础冰箱"></option>
     <option id="buildable3" dialogue="双冰箱"></option>
     <option id="buildable4" dialogue="冷冻柜"></option>
     <option id="buildable5" dialogue="储物架"></option>
@@ -344,13 +344,13 @@
     <option id="buildable7" dialogue="结帐（左）"></option>
     <option id="buildable8" dialogue="立式冷冻柜"></option>
     <option id="buildable9" dialogue="产品柜台A"></option>
-    <option id="buildable10" dialogue="储物架（无标签"></option>
+    <option id="buildable10" dialogue="储物架（无标签）"></option>
     <option id="buildable11" dialogue="蔬果货架A"></option>
     <option id="buildable12" dialogue="自助结账"></option>
     <option id="buildable13" dialogue="蔬果货架B"></option>
     <option id="buildable14" dialogue="产品货架（一半）"></option>
     <option id="buildable15" dialogue="分层搁架"></option>
-    <option id="buildable16" dialogue="墙架"></option>
+    <option id="buildable16" dialogue="墙面货架"></option>
     <option id="buildable17" dialogue="钉板架"></option>
     <option id="buildable18" dialogue="生产货架 B (一半)"></option>
     <option id="buildable19" dialogue="转角搁板（大）"></option>
@@ -362,7 +362,7 @@
     <option id="buildable25" dialogue="高托盘展示架"></option>
 
     <option id="buildable0a" dialogue="删除模式"></option>
-    <option id="tabtitle0" dialogue="建造者"></option>
+    <option id="tabtitle0" dialogue="建造"></option>
     <option id="tabtitle1" dialogue="装饰"></option>
     <option id="tabtitle2" dialogue="设备"></option>
     <option id="tabtitle3" dialogue="灯光"></option>
@@ -419,7 +419,7 @@
     <option id="decorat41" dialogue="吊灯 M"></option>
     <option id="decorat42" dialogue="特殊灯A"></option>
     <option id="decorat43" dialogue="安全摄像头"></option>
-    <option id="decorat44" dialogue="安全台"></option>
+    <option id="decorat44" dialogue="监控台"></option>
     <option id="decorat45" dialogue="清洁机器人"></option>
     <option id="decorat46" dialogue="基本桌 A"></option>
     <option id="decorat47" dialogue="基本椅 A"></option>
@@ -512,7 +512,7 @@
     <option id="decorat126" dialogue="混凝土悬挂花盆 A"></option>
     <option id="decorat127" dialogue="混凝土悬挂花盆 B"></option>
     <option id="decorat128" dialogue="陶瓷悬挂花盆 A"></option>
-    <option id="decorat129" dialogue="解除卡住的方块"></option>
+    <option id="decorat129" dialogue="解除NPC卡住的方块"></option>
     <option id="decorat130" dialogue="路灯 A"></option>
 
     <option id="decorat131" dialogue="路灯 B"></option>
@@ -559,13 +559,13 @@
     <option id="decorat169" dialogue="中型可涂漆隔板"></option>
     <option id="decorat170" dialogue="大型可涂漆隔板"></option>
 
-    <option id="decorat171" dialogue="角落分隔线"></option>
+    <option id="decorat171" dialogue="转角隔板"></option>
     <option id="decorat172" dialogue="大型地面花盆 A"></option>
     <option id="decorat173" dialogue="大型地面花盆 B"></option>
     <option id="decorat174" dialogue="大型地面花盆 C"></option>
     <option id="decorat175" dialogue="大型地面花盆 D"></option>
-    <option id="decorat176" dialogue="十字可涂漆分隔线"></option>
-    <option id="decorat177" dialogue="T 形可涂漆分隔线"></option>
+    <option id="decorat176" dialogue="十字可涂漆隔板"></option>
+    <option id="decorat177" dialogue="T 形可涂漆隔板"></option>
     <option id="decorat178" dialogue="相框"></option>
     <option id="decorat179" dialogue="门可涂漆隔板"></option>
     <option id="decorat180" dialogue="墙面花盆 A"></option>
@@ -595,7 +595,7 @@
     <option id="skill3" dialogue="组建课程"></option>
     <option id="skill3a" dialogue="员工行动速度提高 20%"></option>
     <option id="skill4" dialogue="回收课程"></option>
-    <option id="skill4a" dialogue="回收箱奖励增加四倍"></option>
+    <option id="skill4a" dialogue="回收箱奖励变为四倍"></option>
     <option id="skill5" dialogue="空调"></option>
     <option id="skill5a" dialogue="每天吸引更多客户"></option>
     <option id="skill6" dialogue="Wifi 连接"></option>
@@ -643,7 +643,7 @@
     <option id="skill38a" dialogue="解锁不同类型的托盘展示，以适应最大的产品"></option>
 
     <!-- ///////////////////////////////////Products///////////////////////////////////// -->
-    <option id="productRelated0" dialogue="每单位价格"></option>
+    <option id="productRelated0" dialogue="单价"></option>
 
     <option id="productGroup0" dialogue="基础产品"></option>
     <option id="productGroup1" dialogue="乳制品"></option>
@@ -654,13 +654,13 @@
     <option id="productGroup6" dialogue="糖果和零食"></option>
     <option id="productGroup7" dialogue="肉类"></option>
     <option id="productGroup8" dialogue="蜜饯"></option>
-    <option id="productGroup9" dialogue="泡菜"></option>
+    <option id="productGroup9" dialogue="冲调饮品"></option>
     <option id="productGroup10" dialogue="海鲜"></option>
     <option id="productGroup11" dialogue="图书"></option>
     <option id="productGroup12" dialogue="酒精饮料"></option>
-    <option id="productGroup13" dialogue="药房"></option>
+    <option id="productGroup13" dialogue="医疗"></option>
     <option id="productGroup14" dialogue="农产品"></option>
-    <option id="productGroup15" dialogue="儿童保育"></option>
+    <option id="productGroup15" dialogue="母婴用品"></option>
     <option id="productGroup16" dialogue="园艺"></option>
     <option id="productGroup17" dialogue="小型电子产品"></option>
 
@@ -699,8 +699,8 @@
     <option id="productCategory32" dialogue="农产品 II"></option>
     <option id="productCategory33" dialogue="农产品 III"></option>
     <option id="productCategory34" dialogue="农产品 IV"></option>
-    <option id="productCategory35" dialogue="儿童保育 I"></option>
-    <option id="productCategory36" dialogue="儿童保育 II"></option>
+    <option id="productCategory35" dialogue="母婴用品 I"></option>
+    <option id="productCategory36" dialogue="母婴用品 II"></option>
     <option id="productCategory37" dialogue="苏打饮料 II"></option>
     <option id="productCategory38" dialogue="苏打饮料 III"></option>
     <option id="productCategory39" dialogue="糖果和零食 V"></option>
@@ -762,14 +762,14 @@
     <option id="product41" dialogue="糖 - 大盒"></option>
     <option id="product42" dialogue="红糖 - 大盒"></option>
     <option id="product43" dialogue="埃曼塔奶酪"></option>
-    <option id="product44" dialogue="格鲁耶尔奶酪奶酪"></option>
+    <option id="product44" dialogue="格鲁耶尔奶酪"></option>
     <option id="product45" dialogue="脱脂奶酪"></option>
     <option id="product46" dialogue="水果酸奶"></option>
     <option id="product47" dialogue="香草酸奶"></option>
     <option id="product48" dialogue="牛奶砖"></option>
     <option id="product49" dialogue="黄油"></option>
 
-    <option id="product50" dialogue="Parmigiano 奶酪"></option>
+    <option id="product50" dialogue="帕尔马森奶酪"></option>
     <option id="product51" dialogue="Reggiano 奶酪"></option>
     <option id="product52" dialogue="Mozzarella 奶酪"></option>
     <option id="product53" dialogue="脱脂酸奶"></option>
@@ -780,7 +780,7 @@
     <option id="product58" dialogue="可乐瓶"></option>
     <option id="product59" dialogue="无糖苏打水瓶"></option>
 
-    <option id="product60" dialogue="Premium苏打水"></option>
+    <option id="product60" dialogue="优质苏打水"></option>
     <option id="product61" dialogue="烤肉披萨"></option>
     <option id="product62" dialogue="火锅"></option>
     <option id="product63" dialogue="Crocanti 火腿"></option>
@@ -878,8 +878,8 @@
     <option id="product148" dialogue="烟熏三文鱼"></option>
     <option id="product149" dialogue="蟹肉棒"></option>
 
-    <option id="product150" dialogue="书 - 电磁"></option>
-    <option id="product151" dialogue="书 - 惊喜"></option>
+    <option id="product150" dialogue="书籍 - Electromagnetic"></option>
+    <option id="product151" dialogue="书籍 - Surprise"></option>
     <option id="product152" dialogue="书籍 - ABC"></option>
     <option id="product153" dialogue="书籍 - Mother And Child"></option>
     <option id="product154" dialogue="书籍 - Colors"></option>
@@ -942,7 +942,7 @@
     <option id="product206" dialogue="番茄托盘"></option>
     <option id="product207" dialogue="土豆托盘"></option>
     <option id="product208" dialogue="洋葱托盘"></option>
-    <option id="product209" dialogue="香蕉包"></option>
+    <option id="product209" dialogue="香蕉"></option>
 
     <option id="product210" dialogue="甜瓜"></option>
     <option id="product211" dialogue="菠萝"></option>
@@ -981,7 +981,7 @@
     <option id="product241" dialogue="基础草莓冰淇淋"></option>
     <option id="product242" dialogue="柠檬冰淇淋"></option>
     <option id="product243" dialogue="咖啡冰淇淋"></option>
-    <option id="product244" dialogue="Stracciatella 冰淇淋"></option>
+    <option id="product244" dialogue="斯查彻特拉冰淇淋"></option>
     <option id="product245" dialogue="草莓蛋白霜冰淇淋"></option>
     <option id="product246" dialogue="焦糖冰淇淋"></option>
     <option id="product247" dialogue="高级草莓冰淇淋"></option>
@@ -1016,7 +1016,7 @@
     <option id="product273" dialogue="手耙 (A)"></option>
     <option id="product274" dialogue="手耙 (B)"></option>
     <option id="product275" dialogue="手铲"></option>
-    <option id="product276" dialogue="手动耕耘机"></option>
+    <option id="product276" dialogue="手持式松土器"></option>
     <option id="product277" dialogue="盆栽土壤"></option>
     <option id="product278" dialogue="肥料"></option>
     <option id="product279" dialogue="花盆盘"></option>
@@ -1028,20 +1028,20 @@
     <option id="product284" dialogue="9V 电池"></option>
     <option id="product285" dialogue="通用电视遥控器"></option>
     <option id="product286" dialogue="通用手机充电器"></option>
-    <option id="product287" dialogue="基本预付费电话"></option>
-    <option id="product288" dialogue="基本鼠标"></option>
+    <option id="product287" dialogue="基础预付费电话"></option>
+    <option id="product288" dialogue="基础鼠标"></option>
     <option id="product289" dialogue="Wifi 适配器"></option>
-    <option id="product290" dialogue="基本耳塞"></option>
+    <option id="product290" dialogue="基础耳塞"></option>
 
-    <option id="product291" dialogue="基本键盘"></option>
-    <option id="product292" dialogue="基本游戏手柄"></option>
+    <option id="product291" dialogue="基础键盘"></option>
+    <option id="product292" dialogue="基础游戏手柄"></option>
     <option id="product293" dialogue="USB 闪存盘 (128GB)"></option>
     <option id="product294" dialogue="USB 闪存盘 (256GB)"></option>
     <option id="product295" dialogue="USB 闪存盘 (512GB)"></option>
     <option id="product296" dialogue="USB 闪存盘 (1TB)"></option>
-    <option id="product297" dialogue="基本扬声器"></option>
-    <option id="product298" dialogue="基本耳机"></option>
-    <option id="product299" dialogue="基本游戏机"></option>
+    <option id="product297" dialogue="基础扬声器"></option>
+    <option id="product298" dialogue="基础耳机"></option>
+    <option id="product299" dialogue="基础游戏机"></option>
 
     <!-- ///////////////////////////////////Materials///////////////////////////////////// -->
     <option id="paintmat0" dialogue="存储瓷砖 A"></option>
@@ -1259,7 +1259,7 @@
 
     <option id="lic12" dialogue="许可证获得批准后，您将能够在此终端中将 Youtube 和 Twitch 连接到电视上。"></option>
 
-    <option id="cosmetics1" dialogue="化妆品 DLC 已获批准！"></option>
+    <option id="cosmetics1" dialogue="化妆品 DLC 已通过审核！"></option>
     <option id="cosmetics2" dialogue="9 个新角色、100 多顶帽子、35 种舞蹈和姿势以及一个可在老板不注意时偷懒的网络浏览器。
 
 使用新平板电脑粉刷您的商店，并享受随时间不断添加的独家装饰。第一个 Youtube 同步更新已经可用！"></option>
@@ -1478,7 +1478,7 @@
     <option id="disableinvoicesoption" dialogue="禁用发票"></option>
 
     <option id="off3disclaimer" dialogue="如果员工没有出现或者懈怠，请记得支付他们的工资，否则会产生后果"></option>
-    <option id="off4disclaimer" dialogue="员工的路径很奇怪？使用 Unstuck NPC Block 并在论坛上报告您的商店数据"></option>
+    <option id="off4disclaimer" dialogue="员工的路径很奇怪？使用 解除NPC卡住的方块 并在论坛上报告您的商店数据"></option>
 
     <option id="drawgame0" dialogue="画出单词！小游戏"></option>
     <option id="drawgame1" dialogue="画出小游戏已开始！"></option>
